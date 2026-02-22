@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bordeaux: #4A0414;
+  --gold: #C5A059;
+  --onyx: #121212;
+  --cream: #FDFCF0;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  @apply bg-onyx text-cream;
+}
+
+h1, h2, h3, h4 {
+  @apply font-display;
+}
+
+/* Custom Utilities */
+.glass-panel {
+  @apply bg-white/5 backdrop-blur-md border border-white/10;
+}
+
+.gold-rim {
+  @apply border border-gold;
+}
+
+.shakti-btn {
+  @apply rounded-full px-8 py-3 bg-bordeaux text-cream border border-gold transition-all duration-300 hover:shadow-[0_0_15px_rgba(197,160,89,0.3)] active:scale-95;
+}

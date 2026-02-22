@@ -1,0 +1,70 @@
+{
+    "colors": {
+        "bordeaux": {
+            "default": "#4A0414",
+            "light": "#6B061D",
+            "dark": "#2D020C",
+            "roles": [
+                "Hero Background",
+                "CTA",
+                "Vitality"
+            ]
+        },
+        "gold": {
+            "default": "#C5A059",
+            "light": "#D4B87D",
+            "dark": "#A6833E",
+            "roles": [
+                "Accents",
+                "Borders",
+                "Decorative",
+                "Shakti"
+            ]
+        },
+        "onyx": {
+            "default": "#121212",
+            "light": "#242424",
+            "dark": "#000000",
+            "roles": [
+                "Content Background",
+                "Grounding"
+            ]
+        },
+        "cream": {
+            "default": "#FDFCF0",
+            "dark": "#F2EFD9",
+            "roles": [
+                "Primary Text",
+                "Readability"
+            ]
+        },
+        "spineGlow": {
+            "default": "#FFD700",
+            "roles": [
+                "Anatomical Highlights",
+                "Focus Points"
+            ]
+        }
+    },
+    "typography": {
+        "display": {
+            "family": "Playfair Display",
+            "type": "Serif",
+            "character": "Authoritative, Elegant"
+        },
+        "sans": {
+            "family": "Plus Jakarta Sans",
+            "type": "Sans-serif",
+            "character": "Modern, Professional"
+        }
+    },
+    "layout": {
+        "margins": {
+            "vertical": "80px-120px"
+        },
+        "borderRadius": {
+            "pill": "9999px",
+            "card": "2.5rem"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+node_modules
+
+.agent
+.context
+.env.examples
+design.md
+mcp_config.json
+mission.md
+tasks.md
+
+dist
+.env
+.DS_Store
+*.log
